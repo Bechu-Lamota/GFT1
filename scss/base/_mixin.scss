@@ -16,6 +16,26 @@
     margin-right: $m-rigth;
 }
 
+.txt-faqs-3 {
+    @include pos(20px, 20px, -left, -rigth, none, none, none, none,)
+}
+
+.grid-main-faqs {
+    @include pos(30px, 30px, 20px, 20px, 115.2px, none, none, none)
+}
+
+.txt-faq-h2-3 {
+    @include algn(30px, none, center, black);
+    font-weight: 500
+}
+
+.txt-faq-p-3 {
+    font-weight: 300
+}
+
+.txt-faq-h1-3 {
+    font-weight: bolder
+}
 
 /*FOOTER*/
 .smt-txt {

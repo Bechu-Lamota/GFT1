@@ -1,3 +1,41 @@
+.txt-faqs-3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: -left;
+  padding-right: -rigth;
+  margin-top: none;
+  margin-bottom: none;
+  margin-left: none;
+  margin-right: none;
+}
+
+.grid-main-faqs {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 115.2px;
+  margin-bottom: none;
+  margin-left: none;
+  margin-right: none;
+}
+
+.txt-faq-h2-3 {
+  font-size: 30px;
+  background-color: none;
+  justify-content: center;
+  color: black;
+  font-weight: 500;
+}
+
+.txt-faq-p-3 {
+  font-weight: 300;
+}
+
+.txt-faq-h1-3 {
+  font-weight: bolder;
+}
+
 /*FOOTER*/
 .smt-txt {
   font-size: 20px;
@@ -102,6 +140,28 @@
   margin-bottom: 40px;
 }
 
+.grid-main-faqs {
+  display: grid;
+  grid-template-columns: 0.5fr 3.5fr 0.5fr;
+  grid-template-rows: 2fr;
+  grid-template-areas: "fq1 fq2 fq3";
+  text-align: center;
+}
+
+.fq1 {
+  grid-area: fq1;
+}
+
+.fq2 {
+  grid-area: fq2;
+}
+
+.fq3 {
+  grid-area: fq3;
+}
+
+/*FAQS*/
+/*FIN FAQS*/
 .sumate1 {
   display: flex;
   justify-content: space-between;

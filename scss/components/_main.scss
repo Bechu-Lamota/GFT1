@@ -1,4 +1,25 @@
+.grid-main-faqs {
+    display: grid;
+    grid-template-columns: 0.5fr 3.5fr 0.5fr;
+    grid-template-rows: 2fr;
+    grid-template-areas:
+    "fq1 fq2 fq3";
+    text-align: center;
 
+}
+
+.fq1 {
+    grid-area: fq1;
+}
+
+.fq2 {
+    grid-area: fq2;
+
+}
+
+.fq3 {
+    grid-area: fq3;
+}
 
 
 
@@ -19,3 +40,21 @@
 
 @media screen and (min-width: 776px) and (max-width: 890px){
 }
+
+
+/*FAQS*/
+
+
+
+
+@media screen and (max-width: 776px) {
+ 
+}
+
+@media screen and (min-width: 776px) and (max-width: 890px){
+}
+
+
+
+
+/*FIN FAQS*/
