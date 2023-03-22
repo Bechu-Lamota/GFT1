@@ -5,7 +5,6 @@
     grid-template-areas:
     "fq1 fq2 fq3";
     text-align: center;
-
 }
 
 .fq1 {
@@ -14,14 +13,28 @@
 
 .fq2 {
     grid-area: fq2;
-
 }
 
 .fq3 {
     grid-area: fq3;
 }
 
+.grid-main-cmpnys {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 2fr;
+    grid-template-areas: 
+    "cp1 cp2";
+    text-align: center;
+}
 
+.cp1 {
+    grid-area: cp1;
+}
+
+.cp2 {
+    grid-area: cp2;
+}
 
 
 

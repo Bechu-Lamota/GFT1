@@ -1,3 +1,14 @@
+.grid-main-cmpnys {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 115.2px;
+  margin-bottom: none;
+  margin-left: none;
+  margin-right: none;
+}
+
 .txt-faqs-3 {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -158,6 +169,22 @@
 
 .fq3 {
   grid-area: fq3;
+}
+
+.grid-main-cmpnys {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 2fr;
+  grid-template-areas: "cp1 cp2";
+  text-align: center;
+}
+
+.cp1 {
+  grid-area: cp1;
+}
+
+.cp2 {
+  grid-area: cp2;
 }
 
 /*FAQS*/

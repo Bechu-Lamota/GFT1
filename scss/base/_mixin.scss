@@ -16,6 +16,10 @@
     margin-right: $m-rigth;
 }
 
+.grid-main-cmpnys {
+    @include pos(40px, 30px, 20px, 20px, 115.2px, none, none, none)
+}
+
 .txt-faqs-3 {
     @include pos(20px, 20px, -left, -rigth, none, none, none, none,)
 }
