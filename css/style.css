@@ -60,6 +60,13 @@
 }
 
 /*finFOOTER*/
+/*Navbar*/
+.gft-navbar {
+  background-color: #003F91;
+}
+
+/*FIN Navbar*/
+/*FOOTER*/
 .bg-ftr {
   background-image: linear-gradient(to top, #003F91, #5DA9E9, #FFFFFF);
 }
@@ -73,6 +80,35 @@
   text-decoration: none;
   font-size: 19px;
   text-align: center;
+}
+
+/*FIN FOOTER*/
+/*NavBar*/
+.promocion-navbar {
+  display: grid;
+  grid-template-areas: "promotion-container" "navbar-central";
+}
+
+.gft-navbar {
+  opacity: 1;
+  padding: auto;
+  padding-bottom: 1px;
+  padding-top: 5px;
+  margin: auto;
+}
+
+.offcanvas-tartufin {
+  background-color: #B392AC !important;
+  border-left: 1px #CBC0D3 !important;
+}
+
+.titulo-canvas {
+  color: #FEEAFA !important;
+  opacity: 0 !important;
+}
+
+.nb-desplegable {
+  color: white !important;
 }
 
 .sumate1 {
