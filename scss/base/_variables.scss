@@ -13,16 +13,13 @@ $cl-pc: #BD8B9C;
 $cl-ap: #AF125A;
 $cl-sb: #582B11;
 
-/*Navbar*/
-.gft-navbar {
-    background-color: #003F91 ;
+
+.carousel-gift {
+    border-bottom: 5px solid $cl-fn;
+    border-top: 5px solid $cl-fn;
 }
 
 
-
-
-
-/*FIN Navbar*/
 /*FOOTER*/
 .bg-ftr {
     background-image: linear-gradient(to top, $cl-bl, $cl-cl, $cl-wt-ut);

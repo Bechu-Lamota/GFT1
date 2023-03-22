@@ -1,13 +1,6 @@
 /*NavBar*/
-
-.promocion-navbar {
-    display: grid;
-    grid-template-areas: 
-    "promotion-container"
-    "navbar-central";
-}
-
 .gft-navbar {
+    background-color: #003F91 !important;
     opacity: 1;
     padding: auto;
     padding-bottom: 1px;
@@ -15,23 +8,15 @@
     margin: auto;
 }
 
-.offcanvas-tartufin {
-    background-color:  #B392AC !important;
-    border-left: 1px #CBC0D3 !important;
+.desplazable-gift {
+    background-color: #003F91 !important;
 }
 
-.titulo-canvas {
-    color: #FEEAFA !important;
-    opacity: 0 !important;
+/*CAROUSEL*/
+.carousel-gift {
+    margin-top: 115.2px;
+    margin-bottom: 40px;
 }
-
-.nb-desplegable {
-    color: white !important;
-}
-
-
-
-
 
 
 @media screen and (max-width: 776px) {

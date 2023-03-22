@@ -60,12 +60,11 @@
 }
 
 /*finFOOTER*/
-/*Navbar*/
-.gft-navbar {
-  background-color: #003F91;
+.carousel-gift {
+  border-bottom: 5px solid #6D326D;
+  border-top: 5px solid #6D326D;
 }
 
-/*FIN Navbar*/
 /*FOOTER*/
 .bg-ftr {
   background-image: linear-gradient(to top, #003F91, #5DA9E9, #FFFFFF);
@@ -84,12 +83,8 @@
 
 /*FIN FOOTER*/
 /*NavBar*/
-.promocion-navbar {
-  display: grid;
-  grid-template-areas: "promotion-container" "navbar-central";
-}
-
 .gft-navbar {
+  background-color: #003F91 !important;
   opacity: 1;
   padding: auto;
   padding-bottom: 1px;
@@ -97,18 +92,14 @@
   margin: auto;
 }
 
-.offcanvas-tartufin {
-  background-color: #B392AC !important;
-  border-left: 1px #CBC0D3 !important;
+.desplazable-gift {
+  background-color: #003F91 !important;
 }
 
-.titulo-canvas {
-  color: #FEEAFA !important;
-  opacity: 0 !important;
-}
-
-.nb-desplegable {
-  color: white !important;
+/*CAROUSEL*/
+.carousel-gift {
+  margin-top: 115.2px;
+  margin-bottom: 40px;
 }
 
 .sumate1 {
