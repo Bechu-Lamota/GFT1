@@ -19,7 +19,7 @@
 
 /*LowContainer*/
 .third-ft {
-  font-size: 13px;
+  font-size: 15px;
   background-color: #003F91;
   justify-content: center;
   color: #FFFFEA;
@@ -45,6 +45,18 @@
   margin-bottom: 1px;
   margin-left: 1px;
   margin-right: 1px;
+}
+
+.arr {
+  padding-top: -top;
+  padding-bottom: -botton;
+  padding-left: -left;
+  padding-right: -rigth;
+  margin-top: 10px;
+  margin-bottom: -botton;
+  margin-left: -left;
+  margin-right: -rigth;
+  font-size: 15px;
 }
 
 /*finFOOTER*/
