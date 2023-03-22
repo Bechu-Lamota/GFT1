@@ -1,0 +1,35 @@
+$cl-bl: #003F91;
+$cl-wt: #FFFFEA;
+$cl-wt-ut: #FFFFFF;
+$cl-gy: #5D737E;
+$cl-cl: #5DA9E9;
+$cl-wt-cl: #c1dbf1;
+$cl-wt-gn: #E5F4E3;
+$cl-bk: #000000;
+$cl-fn: #6D326D;
+$cl-ddb: #2F2504;
+$cl-nigth: #0A100D;
+$cl-pc: #BD8B9C;
+$cl-ap: #AF125A;
+$cl-sb: #582B11;
+
+.bg-ftr {
+    background-image: linear-gradient(to top, $cl-bl, $cl-cl, $cl-wt-ut);
+}
+
+.smt-btn {
+    background-color: $cl-bl;
+}
+
+.txt-sumate {
+    color: $cl-wt-gn;
+    text-decoration: none;
+    font-size: 19px;
+    text-align: center;
+}
+
+
+
+
+
+

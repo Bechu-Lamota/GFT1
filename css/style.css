@@ -1,0 +1,233 @@
+/*FOOTER*/
+.smt-txt {
+  font-size: 20px;
+  background-color: none;
+  justify-content: center;
+  color: black;
+}
+
+.sumate1 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/*LowContainer*/
+.third-ft {
+  font-size: 13px;
+  background-color: #003F91;
+  justify-content: center;
+  color: #FFFFEA;
+}
+
+.third-ft {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.spdor-ftr {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 1px;
+  padding-right: 1px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+/*finFOOTER*/
+.bg-ftr {
+  background-image: linear-gradient(to top, #003F91, #5DA9E9, #FFFFFF);
+}
+
+.smt-btn {
+  background-color: #003F91;
+}
+
+.txt-sumate {
+  color: #E5F4E3;
+  text-decoration: none;
+  font-size: 19px;
+  text-align: center;
+}
+
+.sumate1 {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #5D737E;
+}
+
+ol {
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+}
+ol li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 15px;
+}
+ol li a {
+  text-decoration: none;
+  list-style: none;
+  font-size: 15px;
+  color: black;
+}
+
+.fan-page {
+  list-style: none;
+  text-align: center;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.smt-txt {
+  font-weight: 600px;
+  margin-top: 5px;
+  margin-left: 100px;
+  text-align: center;
+}
+
+.smt-btn {
+  padding: 14px 28px;
+  border: 2px solid;
+  border-radius: 10px;
+  margin-right: 100px;
+}
+
+.smt-txt-1 {
+  font-size: 25px;
+  font-weight: 600px;
+}
+
+.smt-txt-2 {
+  font-size: 22px;
+  font-weight: 600px;
+}
+
+.grid-footer {
+  display: grid;
+  grid-template-columns: 3fr 2.5fr 2.5fr 4fr;
+  grid-template-rows: 4fr;
+  grid-template-areas: "sct1 sct2 sct3 sct4" "div1 div2 div3 div4";
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.sct4 {
+  display: flex;
+  justify-items: end;
+  justify-content: end;
+  text-align: end;
+}
+
+/*Low Container*/
+.third-ft {
+  display: flex;
+  position: static;
+  text-align: center;
+}
+
+@media screen and (max-width: 776px) {
+  /*FOOTER*/
+  .sumate1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 2px solid #5D737E;
+  }
+  .grid-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .sct1 {
+    margin-bottom: 40px;
+  }
+  .sct2 {
+    display: none;
+  }
+  .div2 {
+    display: none;
+  }
+  .sct3 {
+    display: none;
+  }
+  .div3 {
+    display: none;
+  }
+  .sct4 {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .spdor-ftr {
+    text-align: center;
+    font-size: 15px;
+  }
+  .smt-btn {
+    height: 30px;
+    width: 100px;
+    padding: 10px 5px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    justify-items: center;
+    margin-top: 50px;
+  }
+  .smt-txt {
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  /*fin FOOTER*/
+}
+@media screen and (min-width: 776px) and (max-width: 890px) {
+  .sumate1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 2px solid #5D737E;
+  }
+  .smt-btn {
+    height: 30px;
+    width: 100px;
+    padding: 10px 5px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    justify-items: center;
+    margin-top: 50px;
+  }
+  .smt-txt {
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+}
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+/*# sourceMappingURL=style.css.map */

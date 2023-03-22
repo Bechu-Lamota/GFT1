@@ -1,0 +1,40 @@
+@mixin algn ($f-algn, $bg-algn, $jfc-algn, $c-algn){
+    font-size: $f-algn;
+    background-color: $bg-algn;
+    justify-content: $jfc-algn;
+    color: $c-algn;
+}
+
+@mixin pos ($p-top, $p-botton, $p-left, $p-rigth, $m-top, $m-botton, $m-left, $m-rigth){
+    padding-top: $p-top;
+    padding-bottom: $p-botton;
+    padding-left: $p-left;
+    padding-right: $p-rigth;
+    margin-top: $m-top;
+    margin-bottom: $m-botton;
+    margin-left: $m-left;
+    margin-right: $m-rigth;
+}
+/*FOOTER*/
+.smt-txt {
+    @include algn(20px, none, center, black)
+}
+.sumate1{
+    @include pos(50px, 50px, 20px, 20px, 12px, 12px, 100px, 100px)
+}
+
+/*LowContainer*/
+.third-ft {
+    @include algn(13px, #003F91, center, #FFFFEA)
+}
+
+.third-ft{
+    @include pos(10px, 10px, 10px, 10px, 12px, 12px, auto, auto)
+}
+
+.spdor-ftr {
+    @include pos(1px, 1px, 1px, 1px, 1px, 1px, 1px, 1px)
+}
+/*finFOOTER*/
+
+

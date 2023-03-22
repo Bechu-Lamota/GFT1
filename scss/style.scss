@@ -1,8 +1,9 @@
-@import'.base/mixin';
-@import'.base/condition';
-@import'.base/variables';
+@import'base/mixin';
+@import'base/variables';
+
 
 //COMPONENTS
-@import'.components/header';
-@import'.components/navbar';
-
+@import'components/header';
+@import'components/navbar';
+@import'components/footer';
+@import'components/body';
