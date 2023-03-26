@@ -1,3 +1,47 @@
+.body-formulario {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: -top;
+  margin-bottom: -botton;
+  margin-left: -left;
+  margin-right: -rigth;
+}
+
+.data_form {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: -top;
+  margin-bottom: -botton;
+  margin-left: -left;
+  margin-right: -rigth;
+}
+
+.img_form_2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: -top;
+  margin-bottom: -botton;
+  margin-left: -left;
+  margin-right: -rigth;
+}
+
+.subm-data {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: -top;
+  margin-bottom: -botton;
+  margin-left: -left;
+  margin-right: -rigth;
+}
+
 .grid-main-cmpnys {
   padding-top: 40px;
   padding-bottom: 30px;
@@ -114,6 +158,11 @@
   border-top: 5px solid #6D326D;
 }
 
+.subm-data {
+  border: 2px solid #003F91;
+  color: #003F91;
+}
+
 /*FOOTER*/
 .bg-ftr {
   background-image: linear-gradient(to top, #003F91, #5DA9E9, #FFFFFF);
@@ -149,6 +198,12 @@
 .carousel-gift {
   margin-top: 115.2px;
   margin-bottom: 40px;
+}
+
+/*ANUNCIO SUSCRIPT*/
+.anun_A {
+  margin-top: 115.2px;
+  margin-bottom: 25px;
 }
 
 .grid-main-faqs {
@@ -352,6 +407,46 @@ ol li a {
 * {
   margin: 0%;
   padding: 0%;
+}
+
+/*ANUNCIO SUSCRIPT*/
+.body-formulario {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "img_form data_form";
+}
+
+.img_form {
+  grid-area: img_form;
+}
+
+.form {
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.lista-suscript {
+  list-style: none;
+  text-align: center;
+}
+
+.ttl_susc {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.subm-data {
+  margin-bottom: 10px;
+  border-radius: 2%;
+  text-align: center;
+}
+
+.data-form {
+  grid-area: data_form;
+  display: flex;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=style.css.map */

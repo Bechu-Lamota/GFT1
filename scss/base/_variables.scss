@@ -18,8 +18,10 @@ $cl-sb: #582B11;
     border-bottom: 5px solid $cl-fn;
     border-top: 5px solid $cl-fn;
 }
-
-
+.subm-data {
+    border: 2px solid $cl-bl;
+    color: $cl-bl;
+}
 /*FOOTER*/
 .bg-ftr {
     background-image: linear-gradient(to top, $cl-bl, $cl-cl, $cl-wt-ut);

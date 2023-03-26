@@ -2,3 +2,46 @@
     margin: 0%;
     padding:0%;
 }
+
+/*ANUNCIO SUSCRIPT*/
+.body-formulario {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "img_form data_form";
+}
+.img_form {
+    grid-area: img_form;
+}
+.form {
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.lista-suscript {
+    list-style: none;
+    text-align: center;
+}
+.ttl_susc {
+    text-align: center;
+    margin-top: 70px;
+}
+.subm-data {
+    margin-bottom: 10px;
+    border-radius: 2%;
+    text-align: center;
+}
+
+.data-form {
+    grid-area: data_form;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 776px) {
+ 
+}
+
+@media screen and (min-width: 776px) and (max-width: 890px){
+}

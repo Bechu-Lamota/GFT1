@@ -15,6 +15,21 @@
     margin-left: $m-left;
     margin-right: $m-rigth;
 }
+.body-formulario {
+    @include pos(10px, 10px, 10px, 10px, -top, -botton, -left, -rigth)
+}
+
+.data_form {
+    @include pos(10px, 10px, 10px, 10px, -top, -botton, -left, -rigth)
+}
+
+.img_form_2 {
+    @include pos(10px, 10px, 10px, 10px, -top, -botton, -left, -rigth)
+}
+
+.subm-data {
+    @include pos(2px, 2px, 40px, 40px, -top, -botton, -left, -rigth) 
+}
 
 .grid-main-cmpnys {
     @include pos(40px, 30px, 20px, 20px, 115.2px, none, none, none)
