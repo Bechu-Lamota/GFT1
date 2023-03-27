@@ -33,15 +33,35 @@
     text-align: center;
 }
 
-.data-form {
+.data_form {
     grid-area: data_form;
     display: flex;
     flex-direction: column;
 }
 
 @media screen and (max-width: 776px) {
- 
+    .data_form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .img_form {
+        display: none;
+    }
+
 }
 
 @media screen and (min-width: 776px) and (max-width: 890px){
+    .data_form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .img_form {
+        display: none;
+    }
 }
