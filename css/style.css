@@ -1,3 +1,25 @@
+.cp2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: -top;
+  margin-bottom: -botton;
+  margin-left: -left;
+  margin-right: -rigth;
+}
+
+.txt-cp-3 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: -left;
+  padding-right: -rigth;
+  margin-top: -top;
+  margin-bottom: -botton;
+  margin-left: -left;
+  margin-right: -rigth;
+}
+
 .btn_suscript {
   padding-top: 2px;
   padding-bottom: 2px;
@@ -259,6 +281,7 @@
 
 .cp2 {
   grid-area: cp2;
+  text-align: center;
 }
 
 /*cart*/

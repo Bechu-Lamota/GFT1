@@ -16,6 +16,13 @@
     margin-right: $m-rigth;
 }
 
+.cp2 {
+    @include pos(50px, 50px, 10px, 10px, -top, -botton, -left, -rigth)
+}
+.txt-cp-3 {
+    @include pos(40px, 40px, -left, -rigth, -top, -botton, -left, -rigth)
+}
+
 .btn_suscript{
     @include pos(2px, 2px, 40px, 40px, -top, -botton, -left, -rigth)
 }
