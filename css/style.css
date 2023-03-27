@@ -323,8 +323,12 @@
     margin: 10px 10px;
     justify-content: space-around;
   }
+  .card-item {
+    text-align: center;
+    margin: auto;
+  }
   .img-item {
-    justify-content: center;
+    text-align: center;
     padding: 10px 10px;
   }
 }
@@ -335,9 +339,17 @@
     margin: 10px 10px;
     justify-content: space-around;
   }
+  .card-item {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .img-item {
+    text-align: center;
+    padding: 10px 10px;
+  }
 }
 /*FAQS*/
-/*FIN FAQS*/
 .sumate1 {
   display: flex;
   justify-content: space-between;
