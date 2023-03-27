@@ -462,10 +462,49 @@ ol li a {
   text-align: center;
 }
 
-.data-form {
+.data_form {
   grid-area: data_form;
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (max-width: 776px) {
+  .body-formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .data_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .img_form {
+    display: none;
+  }
+  .ttl_susc {
+    margin-top: 0px;
+  }
+}
+@media screen and (min-width: 776px) and (max-width: 890px) {
+  .body-formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .data_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .ttl_susc {
+    margin-top: 0px;
+  }
+  .img_form {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
