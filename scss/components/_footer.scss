@@ -22,11 +22,30 @@ ol {
     }
 }
 
-.fan-page{
+.fan-page {
     list-style: none;
     text-align: center;
-    justify-content: space-between;
-    font-size: 15px;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 2fr;
+    grid-template-areas:
+    "fa-whatsapp fa-facebook-f fa-twitter";
+    text-align: center;
+}
+
+.fa-whatsapp{
+    grid-area: fa-whatsapp;
+    text-align: end;
+}
+
+.fa-facebook-f{
+    grid-area: fa-facebook-f;
+}
+
+.fa-facebook-f{
+    grid-area: fa-twitter;
+    text-align: start;
 }
 
 .smt-txt {
@@ -150,7 +169,7 @@ ol {
         border-bottom: 2px solid $cl-gy;
     }
     .smt-btn {
-        padding: 20px 28px;
+        padding: 21px 40px;
         border: 2px solid;
         border-radius: 10px;
         margin-right: auto;

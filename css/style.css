@@ -1,3 +1,14 @@
+ul {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-top: -top;
+  margin-bottom: -botton;
+  margin-left: -left;
+  margin-right: -rigth;
+}
+
 .cp2 {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -117,7 +128,8 @@
 }
 
 .txt-faq-p-3 {
-  font-weight: 300;
+  font-weight: 380;
+  margin-bottom: 7px;
 }
 
 .txt-faq-h1-3 {
@@ -277,11 +289,19 @@
 
 .cp1 {
   grid-area: cp1;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .cp2 {
   grid-area: cp2;
   text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 /*cart*/
@@ -546,8 +566,26 @@ ol li a {
 .fan-page {
   list-style: none;
   text-align: center;
-  justify-content: space-between;
-  font-size: 15px;
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: 2fr;
+  grid-template-areas: "fa-whatsapp fa-facebook-f fa-twitter";
+  text-align: center;
+}
+
+.fa-whatsapp {
+  grid-area: fa-whatsapp;
+  text-align: end;
+}
+
+.fa-facebook-f {
+  grid-area: fa-facebook-f;
+}
+
+.fa-facebook-f {
+  grid-area: fa-twitter;
+  text-align: start;
 }
 
 .smt-txt {
@@ -664,7 +702,7 @@ ol li a {
     border-bottom: 2px solid #5D737E;
   }
   .smt-btn {
-    padding: 20px 28px;
+    padding: 21px 40px;
     border: 2px solid;
     border-radius: 10px;
     margin-right: auto;

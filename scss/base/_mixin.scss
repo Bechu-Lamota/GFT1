@@ -15,6 +15,9 @@
     margin-left: $m-left;
     margin-right: $m-rigth;
 }
+ul {
+    @include pos(5px, 5px, 2px, 2px, -top, -botton, -left, -rigth);
+}    
 
 .cp2 {
     @include pos(50px, 50px, 10px, 10px, -top, -botton, -left, -rigth)
@@ -60,7 +63,8 @@
 }
 
 .txt-faq-p-3 {
-    font-weight: 300
+    font-weight: 380;
+    margin-bottom: 7px;
 }
 
 .txt-faq-h1-3 {

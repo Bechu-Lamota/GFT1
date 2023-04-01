@@ -30,11 +30,19 @@
 
 .cp1 {
     grid-area: cp1;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .cp2 {
     grid-area: cp2;
     text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 /*cart*/
