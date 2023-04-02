@@ -129,11 +129,13 @@ ul {
 
 .txt-faq-p-3 {
   font-weight: 380;
-  margin-bottom: 7px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .txt-faq-h1-3 {
   font-weight: bolder;
+  font-size: 50px;
 }
 
 /*FOOTER*/
@@ -273,6 +275,8 @@ ul {
 
 .fq2 {
   grid-area: fq2;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .fq3 {
