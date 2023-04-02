@@ -400,51 +400,107 @@ ul {
   display: grid;
   grid-template-areas: "sct-b-1 sct-b-2" "sct-b-3 sct-b-4" "sct-b-5 sct-b-6" "sct-b-7 sct-b-8";
   text-align: center;
-  padding: auto;
-  margin: 10px 10px;
+  padding: 0px 20px;
+  margin: 40px 0px;
+  background-color: #f9f9f9;
 }
 
 .sct-b-1 {
   grid-area: sct-b-1;
-  padding: auto;
-  margin: 10px 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 60px;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
   text-align: center;
+  border-top: 1.5px solid #f3f3f3;
+  border-left: 1.5px solid #f3f3f3;
+  border-bottom: 1.5px solid #f3f3f3;
+  background-color: #fcfcfc;
+  align-content: end;
+}
+
+.img-index {
+  padding-right: auto;
 }
 
 .sct-b-2 {
   grid-area: sct-b-2;
-  margin: 10px 10px;
-  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-top: 1.5px solid #f3f3f3;
+  border-right: 1.5px solid #f3f3f3;
+  border-bottom: 1.5px solid #f3f3f3;
+  background-color: #fcfcfc;
 }
 
 .txt-sct-b-6-1 {
-  padding-top: 63px;
-  padding-left: 4px;
+  text-align: center;
+  padding-top: 100px;
   padding-right: 4px;
 }
 
 .sct-b-3 {
   grid-area: sct-b-3;
-  margin: 10px 10px;
-  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: end;
+  border-top: 1.5px solid #f3f3f3;
+  border-left: 1.5px solid #f3f3f3;
+  border-bottom: 1.5px solid #f3f3f3;
+  background-color: #fcfcfc;
 }
 
 .sct-b-4 {
   grid-area: sct-b-4;
-  margin: 10px 10px;
-  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 60px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: start;
+  border-top: 1.5px solid #f3f3f3;
+  border-right: 1.5px solid #f3f3f3;
+  border-bottom: 1.5px solid #f3f3f3;
+  background-color: #fcfcfc;
 }
 
 .sct-b-5 {
   grid-area: sct-b-5;
-  margin: 10px 10px;
-  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: end;
+  border-top: 1.5px solid #f3f3f3;
+  border-left: 1.5px solid #f3f3f3;
+  border-bottom: 1.5px solid #f3f3f3;
+  background-color: #fcfcfc;
 }
 
 .sct-b-6 {
   grid-area: sct-b-6;
-  margin: 10px 10px;
-  text-align: center;
+  padding-top: 10px;
+  font-size: 26px;
+  padding-bottom: 10px;
+  padding-left: 60px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: start;
+  border-top: 1.5px solid #f3f3f3;
+  border-right: 1.5px solid #f3f3f3;
+  border-bottom: 1.5px solid #f3f3f3;
+  background-color: #fcfcfc;
 }
 
 .txt-sct-b-6-2 {
@@ -455,8 +511,16 @@ ul {
 
 .sct-b-7 {
   grid-area: sct-b-7;
-  margin: 10px 10px;
-  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: end;
+  border-top: 1.5px solid #f3f3f3;
+  border-left: 1.5px solid #f3f3f3;
+  border-bottom: 1.5px solid #f3f3f3;
+  background-color: #fcfcfc;
 }
 
 .txt-sct-b-6-3 {
@@ -473,8 +537,17 @@ ul {
 
 .sct-b-8 {
   grid-area: sct-b-8;
-  margin: 10px 10px;
-  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 60px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: start;
+  border-top: 1.5px solid #f3f3f3;
+  border-right: 1.5px solid #f3f3f3;
+  border-bottom: 1.5px solid #f3f3f3;
+  background-color: #fcfcfc;
 }
 
 @media screen and (max-width: 776px) {
@@ -487,22 +560,66 @@ ul {
     margin-bottom: 5px;
     border-top: 2px solid #5D737E;
   }
+  .sct-b-1 {
+    text-align: center;
+    border: 1.5px solid #f3f3f3;
+    background-color: #fcfcfc;
+  }
+  .sct-b-2 {
+    text-align: center;
+    border: 1.5px solid #f3f3f3;
+    background-color: #fcfcfc;
+  }
+  .sct-b-3 {
+    text-align: center;
+    border: 1.5px solid #f3f3f3;
+    background-color: #fcfcfc;
+  }
+  .sct-b-4 {
+    text-align: center;
+    border: 1.5px solid #f3f3f3;
+    background-color: #fcfcfc;
+  }
+  .sct-b-5 {
+    text-align: center;
+    border: 1.5px solid #f3f3f3;
+    background-color: #fcfcfc;
+  }
+  .sct-b-6 {
+    text-align: center;
+    border: 1.5px solid #f3f3f3;
+    background-color: #fcfcfc;
+  }
+  .sct-b-7 {
+    text-align: center;
+    border: 1.5px solid #f3f3f3;
+    background-color: #fcfcfc;
+  }
+  .sct-b-8 {
+    text-align: center;
+    border: 1.5px solid #f3f3f3;
+    background-color: #fcfcfc;
+  }
   .txt-sct-b-6-1 {
+    text-align: center;
     padding-top: 1px;
     padding-left: 4px;
     padding-right: 4px;
   }
   .txt-sct-b-6-2 {
+    text-align: center;
     padding-top: 3px;
     padding-left: 4px;
     padding-right: 4px;
   }
   .txt-sct-b-6-3 {
+    text-align: center;
     padding-top: 3px;
     padding-left: 4px;
     padding-right: 4px;
   }
   .txt-sct-b-6-4 {
+    text-align: center;
     padding-top: 3px;
     padding-left: 4px;
     padding-right: 4px;
@@ -518,22 +635,140 @@ ul {
     margin-bottom: 5px;
     border-top: 2px solid #5D737E;
   }
+  .sct-b-1 {
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+    margin-top: 100px;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+    border-top: 1.5px solid #f3f3f3;
+    border-left: 1.5px solid #f3f3f3;
+    border-right: 1.5px solid #f3f3f3;
+    background-color: #fcfcfc;
+  }
+  .sct-b-2 {
+    margin: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    text-align: center;
+    border-top: none;
+    border-bottom: 1.5px solid #f3f3f3;
+    border-left: 1.5px solid #f3f3f3;
+    border-right: 1.5px solid #f3f3f3;
+    background-color: #fcfcfc;
+  }
+  .sct-b-3 {
+    padding-bottom: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+    border-top: 1.5px solid #f3f3f3;
+    border-left: 1.5px solid #f3f3f3;
+    border-right: 1.5px solid #f3f3f3;
+    background-color: #fcfcfc;
+  }
+  .sct-b-4 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    text-align: center;
+    border-top: none;
+    border-bottom: 1.5px solid #f3f3f3;
+    border-left: 1.5px solid #f3f3f3;
+    border-right: 1.5px solid #f3f3f3;
+    background-color: #fcfcfc;
+  }
+  .sct-b-5 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    text-align: center;
+    border-top: none;
+    border-bottom: 1.5px solid #f3f3f3;
+    border-left: 1.5px solid #f3f3f3;
+    border-right: 1.5px solid #f3f3f3;
+    background-color: #fcfcfc;
+  }
+  .sct-b-6 {
+    padding-bottom: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+    border-top: 1.5px solid #f3f3f3;
+    border-left: 1.5px solid #f3f3f3;
+    border-right: 1.5px solid #f3f3f3;
+    background-color: #fcfcfc;
+  }
+  .sct-b-7 {
+    padding-bottom: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-left: 0%;
+    margin-bottom: 100px;
+    text-align: center;
+    border-top: 1.5px solid #f3f3f3;
+    border-left: 1.5px solid #f3f3f3;
+    border-right: 1.5px solid #f3f3f3;
+    background-color: #fcfcfc;
+  }
+  .sct-b-8 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    text-align: center;
+    border-top: none;
+    border-bottom: 1.5px solid #f3f3f3;
+    border-left: 1.5px solid #f3f3f3;
+    border-right: 1.5px solid #f3f3f3;
+    background-color: #fcfcfc;
+  }
   .txt-sct-b-6-1 {
+    text-align: center;
     padding-top: 4px;
     padding-left: 4px;
     padding-right: 4px;
   }
   .txt-sct-b-6-2 {
+    text-align: center;
     padding-top: 3px;
     padding-left: 4px;
     padding-right: 4px;
   }
   .txt-sct-b-6-3 {
+    text-align: center;
     padding-top: 3px;
     padding-left: 4px;
     padding-right: 4px;
   }
   .txt-sct-b-6-4 {
+    text-align: center;
     padding-top: 3px;
     padding-left: 4px;
     padding-right: 4px;
