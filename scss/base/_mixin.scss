@@ -98,6 +98,22 @@ ul {
     @include pos(-top, -botton, -left, -rigth, 10px, -botton, -left, -rigth);
     font-size: 15px;
 }
+
+.txt-faq-p-4 {
+    @include pos(-top, -botton, -left, -rigth, 2px, 2px, -left, -rigth);
+    text-align: start;
+
+}
+.txt-faq-p-5 {
+    @include pos(-top, -botton, 40px, -rigth, 2px, 2px, -left, -rigth);
+    text-align: start;
+}
+
+.txt-faq-h2-acb {
+    @include algn(18px, -algn, -algn, -algn);
+    font-weight: 600;
+}
+
 /*finFOOTER*/
 
 

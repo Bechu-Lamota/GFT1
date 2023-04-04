@@ -199,6 +199,38 @@ ul {
   font-size: 15px;
 }
 
+.txt-faq-p-4 {
+  padding-top: -top;
+  padding-bottom: -botton;
+  padding-left: -left;
+  padding-right: -rigth;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: -left;
+  margin-right: -rigth;
+  text-align: start;
+}
+
+.txt-faq-p-5 {
+  padding-top: -top;
+  padding-bottom: -botton;
+  padding-left: 40px;
+  padding-right: -rigth;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: -left;
+  margin-right: -rigth;
+  text-align: start;
+}
+
+.txt-faq-h2-acb {
+  font-size: 18px;
+  background-color: -algn;
+  justify-content: -algn;
+  color: -algn;
+  font-weight: 600;
+}
+
 /*finFOOTER*/
 .btn_suscript {
   background-color: #c1dbf1;
@@ -481,13 +513,13 @@ ul {
   grid-area: sct-b-5;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-left: 10px;
+  margin-left: 0px;
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: end;
   border-top: 1.5px solid #f3f3f3;
   border-left: 1.5px solid #f3f3f3;
-  border-bottom: 1.5px solid #f3f3f3;
+  border-bottom: 1.5px solid transparent;
   background-color: #fcfcfc;
 }
 
@@ -497,11 +529,11 @@ ul {
   font-size: 26px;
   padding-bottom: 10px;
   padding-left: 60px;
-  margin-right: 10px;
+  margin-right: 0px;
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: start;
-  border-top: 1.5px solid #f3f3f3;
+  border-top: 1.5px solid transparent;
   border-right: 1.5px solid #f3f3f3;
   border-bottom: 1.5px solid #f3f3f3;
   background-color: #fcfcfc;
@@ -948,7 +980,7 @@ ol li a {
     margin-left: auto;
     text-align: center;
     justify-items: center;
-    margin-top: 50px;
+    margin-top: 20px;
   }
   .smt-txt {
     text-align: center;
